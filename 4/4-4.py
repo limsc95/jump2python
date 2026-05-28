@@ -1,0 +1,6 @@
+# 프로그램 입출력
+import sys
+args = sys.argv[1:]
+
+for i in args:
+    print(i.upper(), end=' ')
